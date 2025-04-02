@@ -41,45 +41,35 @@ nav ul li a:hover {
 }
 
 .intro {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .profile-pic {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  margin-right: 2rem;
   object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.intro-text {
-  flex: 1;
+.intro-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 
-.socials a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: 500;
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
 }
 
-.socials a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-}
-
-main section {
-  margin-bottom: 3rem;
+.social-icons img:hover {
+  transform: scale(1.15);
 }
 
 footer {
