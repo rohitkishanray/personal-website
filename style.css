@@ -100,3 +100,36 @@ footer {
   margin: 2rem auto;
   padding: 0 2rem;
 }
+.research-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.inline-icon {
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.paper {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.paper h3 {
+  margin-bottom: 0.3rem;
+}
+
+.paper iframe {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.note {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
