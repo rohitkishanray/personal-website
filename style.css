@@ -108,6 +108,7 @@ footer {
 
 .inline-icon {
   height: 20px;
+  width: auto;
   vertical-align: middle;
   margin-left: 5px;
 }
@@ -132,4 +133,19 @@ footer {
   padding: 1rem;
   margin-top: 1rem;
   font-size: 0.95rem;
+}
+
+.download-link {
+  margin-top: 0.5rem;
+}
+
+.download-link img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.download-link img:hover {
+  transform: scale(1.2);
 }
