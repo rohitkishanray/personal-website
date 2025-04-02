@@ -82,7 +82,7 @@ nav ul li a:hover {
   height: 32px;
   margin: 0;
   vertical-align: middle;
-  transition: transform 0.2s ease;
+/*   transition: transform 0.2s ease; */
 }
 
 .social-icons img:hover {
