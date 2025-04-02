@@ -111,7 +111,14 @@ footer {
   height: 20px;
   width: auto;
   vertical-align: middle;
+  margin-left: 10px;
+}
+.inline-icon:first-child {
   margin-left: 0;
+}
+.icon-links {
+  display: inline-block;
+  margin-left: 8px;
 }
 
 .paper {
