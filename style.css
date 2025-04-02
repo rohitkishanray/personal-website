@@ -150,3 +150,12 @@ footer {
 .download-link img:hover {
   transform: scale(1.2);
 }
+
+.site-title {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
