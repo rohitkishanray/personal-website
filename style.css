@@ -209,7 +209,7 @@ footer {
 @media (min-width: 768px) {
   .responsive {
     flex-direction: row;
-    text-align: left;
+    text-align: justified;
     align-items: flex-start;
   }
 
