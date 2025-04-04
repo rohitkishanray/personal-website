@@ -8,6 +8,10 @@ body {
   background-color: #fff;
 }
 
+.justified {
+  text-align: justify;
+}
+
 header {
   background: #011269;
   color: #fff;
