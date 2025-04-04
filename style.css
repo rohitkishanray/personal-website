@@ -51,6 +51,12 @@ nav ul li a:hover {
   max-width: 700px;
   margin: 0 auto;
 }
+.intro-body {
+  text-align: justified;
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 .profile-pic {
   width: 200px;
