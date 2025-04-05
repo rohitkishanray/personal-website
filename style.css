@@ -1,6 +1,5 @@
 body {
   font-family: "Bookman Old Style";
-/*   font-family: 'Segoe UI', sans-serif; */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -44,6 +43,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 a {
   color: #0077cc;
   text-decoration: none;
@@ -52,12 +52,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 .intro {
   text-align: center;
   padding: 3rem 2rem;
   max-width: 700px;
   margin: 0 auto;
 }
+
 .intro-body {
   text-align: justified;
   padding: 3rem 2rem;
@@ -100,7 +102,6 @@ a:hover {
   height: 32px;
   margin: 0;
   vertical-align: middle;
-/*   transition: transform 0.2s ease; */
 }
 
 .social-icons img:hover {
@@ -113,11 +114,13 @@ footer {
   background: #f0f0f0;
   color: #666;
 }
+
 .contact-page {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 2rem;
 }
+
 .research-page {
   max-width: 900px;
   margin: 2rem auto;
@@ -130,9 +133,11 @@ footer {
   vertical-align: middle;
   margin-left: 10px;
 }
+
 .inline-icon:first-child {
   margin-left: 0;
 }
+
 .icon-links {
   display: inline-block;
   margin-left: 8px;
@@ -184,7 +189,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Default: stacked layout (for mobile) */
+/* Responsive content block layout */
 .responsive {
   display: flex;
   flex-direction: column;
@@ -193,74 +198,47 @@ footer {
   gap: 1rem;
   text-align: center;
 }
+
+/* Responsive figure for SEA */
+.responsive-figure {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
 .responsive-figure img {
   max-width: 100%;
-  width:200px;
+  width: 100%;
   height: auto;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-img.content-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: block;
   margin: 0 auto;
 }
 
-.responsive .text-box {
-  width: 100%;
-  max-width: 700px;
-}
 .responsive-figure figcaption {
   margin-top: 0.6rem;
   font-size: 0.9rem;
   color: #555;
   font-style: italic;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Desktop: side-by-side layout */
+/* Desktop enhancements */
 @media (min-width: 768px) {
   .responsive {
     flex-direction: row;
-    text-align: justified;
     align-items: flex-start;
-  }
-
-  img.content-image {
-    max-width: 100%;
-    width: 700px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    text-align: left;
   }
 
   .responsive .text-box {
     flex: 1;
   }
-  .responsive-figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0;
-  text-align: center;
-}
 
-.responsive-figure img {
-  max-width: 100%;
-  width: 700px;
-  height: auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  .responsive-figure img {
+    width: 700px;
+  }
 }
-
-.responsive-figure figcaption {
-  margin-top: 0.6rem;
-  font-size: 0.9rem;
-  color: #555;
-  font-style: italic;
-}
-
-}
-
