@@ -221,8 +221,11 @@ footer {
   }
 
   .responsive img.content-image {
-    max-width: 300px;
-    margin-right: 2rem;
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-right: 0 auto;
   }
 
   .responsive .text-box {
