@@ -194,11 +194,13 @@ footer {
   text-align: center;
 }
 
-.responsive img.content-image {
+img.content-image {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
 }
 
 .responsive .text-box {
@@ -220,12 +222,12 @@ footer {
     align-items: flex-start;
   }
 
-  .responsive img.content-image {
+  img.content-image {
     max-width: 100%;
     width: 700px;
     height: auto;
     display: block;
-    margin-right: 0 auto;
+    margin: 0 auto;
   }
 
   .responsive .text-box {
