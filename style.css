@@ -195,7 +195,7 @@ footer {
   align-items: center;
   margin: 2rem 0;
   gap: 1rem;
-  text-align: center;
+  text-align: justified;
 }
 
 /* Responsive figure for SEA */
@@ -216,14 +216,16 @@ footer {
 }
 
 .responsive-figure figcaption {
+ display: block;
+  width: 100%;
   margin-top: 0.6rem;
   font-size: 0.95rem;
   color: #555;
   font-style: italic;
+  text-align: justified;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 /* Desktop enhancements */
@@ -231,7 +233,7 @@ footer {
   .responsive {
     flex-direction: row;
     align-items: flex-start;
-    text-align: left;
+    text-align: justified;
   }
 
   .responsive .text-box {
@@ -250,7 +252,7 @@ footer {
 
 
   .responsive-figure figcaption {
-    text-align: center;
+    text-align: justified;
     max-width: 800px;
   }
 }
