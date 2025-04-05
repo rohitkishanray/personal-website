@@ -188,7 +188,6 @@ footer {
 .site-title:hover {
   text-decoration: underline;
 }
-
 /* Responsive content block layout */
 .responsive {
   display: flex;
@@ -203,12 +202,15 @@ footer {
 .responsive-figure {
   text-align: center;
   margin: 2rem auto;
-  max-width: 900px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .responsive-figure img {
   max-width: 100%;
-  width: 100%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -221,9 +223,8 @@ footer {
   font-size: 0.9rem;
   color: #555;
   font-style: italic;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 90%;
+  text-align: center;
 }
 
 /* Desktop enhancements */
@@ -238,7 +239,16 @@ footer {
     flex: 1;
   }
 
+  .responsive-figure {
+    max-width: 900px;
+  }
+
   .responsive-figure img {
     width: 700px;
+  }
+
+  .responsive-figure figcaption {
+    text-align: center;
+    max-width: 800px;
   }
 }
