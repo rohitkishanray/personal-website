@@ -239,13 +239,16 @@ footer {
     flex: 1;
   }
 
-  .responsive-figure {
-    max-width: 900px;
-  }
-
   .responsive-figure img {
     width: 700px;
   }
+
+
+  .responsive-figure {
+    max-width: 700px;
+  }
+
+
 
   .responsive-figure figcaption {
     text-align: center;
